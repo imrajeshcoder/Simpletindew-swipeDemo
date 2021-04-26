@@ -1,0 +1,6 @@
+framework module Pods_tindew_swipeTests {
+  umbrella header "Pods-tindew-swipeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

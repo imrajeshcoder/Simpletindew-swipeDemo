@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D120799BCC78123811A91EC /* Pods_tindew_swipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525BEAC14E58C3D9752B6FC5 /* Pods_tindew_swipe.framework */; };
+		965DD06BB47BE7FA9050B504 /* Pods_tindew_swipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5333FF0A15CED4B4071C802 /* Pods_tindew_swipeTests.framework */; };
+		A19149162A46F9DCE05D4EB3 /* Pods_tindew_swipe_tindew_swipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD8E406B323925B0216AC45 /* Pods_tindew_swipe_tindew_swipeUITests.framework */; };
+		B169696B2636839B004FFCA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169696A2636839B004FFCA2 /* AppDelegate.swift */; };
+		B169696D2636839B004FFCA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169696C2636839B004FFCA2 /* SceneDelegate.swift */; };
+		B169696F2636839B004FFCA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169696E2636839B004FFCA2 /* ViewController.swift */; };
+		B16969722636839B004FFCA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16969702636839B004FFCA2 /* Main.storyboard */; };
+		B16969742636839C004FFCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16969732636839C004FFCA2 /* Assets.xcassets */; };
+		B16969772636839C004FFCA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16969752636839C004FFCA2 /* LaunchScreen.storyboard */; };
+		B16969822636839C004FFCA2 /* tindew_swipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16969812636839C004FFCA2 /* tindew_swipeTests.swift */; };
+		B169698D2636839C004FFCA2 /* tindew_swipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169698C2636839C004FFCA2 /* tindew_swipeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B169697E2636839C004FFCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B169695F2636839B004FFCA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16969662636839B004FFCA2;
+			remoteInfo = "tindew-swipe";
+		};
+		B16969892636839C004FFCA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B169695F2636839B004FFCA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16969662636839B004FFCA2;
+			remoteInfo = "tindew-swipe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F3514665F49DE1E7FC55E9 /* Pods-tindew-swipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindew-swipeTests.debug.xcconfig"; path = "Target Support Files/Pods-tindew-swipeTests/Pods-tindew-swipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C771C307F1C2958CAB14CCF /* Pods-tindew-swipe-tindew-swipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindew-swipe-tindew-swipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-tindew-swipe-tindew-swipeUITests/Pods-tindew-swipe-tindew-swipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		209B9914CA92D3619C9336D0 /* Pods-tindew-swipe-tindew-swipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindew-swipe-tindew-swipeUITests.release.xcconfig"; path = "Target Support Files/Pods-tindew-swipe-tindew-swipeUITests/Pods-tindew-swipe-tindew-swipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		525BEAC14E58C3D9752B6FC5 /* Pods_tindew_swipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tindew_swipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16969672636839B004FFCA2 /* tindew-swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tindew-swipe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B169696A2636839B004FFCA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B169696C2636839B004FFCA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B169696E2636839B004FFCA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B16969712636839B004FFCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B16969732636839C004FFCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B16969762636839C004FFCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B16969782636839C004FFCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B169697D2636839C004FFCA2 /* tindew-swipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tindew-swipeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16969812636839C004FFCA2 /* tindew_swipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tindew_swipeTests.swift; sourceTree = "<group>"; };
+		B16969832636839C004FFCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16969882636839C004FFCA2 /* tindew-swipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tindew-swipeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B169698C2636839C004FFCA2 /* tindew_swipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tindew_swipeUITests.swift; sourceTree = "<group>"; };
+		B169698E2636839C004FFCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD8E406B323925B0216AC45 /* Pods_tindew_swipe_tindew_swipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tindew_swipe_tindew_swipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50544CEC7455DDD80C80CE3 /* Pods-tindew-swipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindew-swipeTests.release.xcconfig"; path = "Target Support Files/Pods-tindew-swipeTests/Pods-tindew-swipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7637BB7E38A0D30B7B5166D /* Pods-tindew-swipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindew-swipe.debug.xcconfig"; path = "Target Support Files/Pods-tindew-swipe/Pods-tindew-swipe.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A6BCA509B07CE1D3B5954C /* Pods-tindew-swipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tindew-swipe.release.xcconfig"; path = "Target Support Files/Pods-tindew-swipe/Pods-tindew-swipe.release.xcconfig"; sourceTree = "<group>"; };
+		E5333FF0A15CED4B4071C802 /* Pods_tindew_swipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tindew_swipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B16969642636839B004FFCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D120799BCC78123811A91EC /* Pods_tindew_swipe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B169697A2636839C004FFCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965DD06BB47BE7FA9050B504 /* Pods_tindew_swipeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16969852636839C004FFCA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19149162A46F9DCE05D4EB3 /* Pods_tindew_swipe_tindew_swipeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0510FB7D450339EAEA10AFAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				525BEAC14E58C3D9752B6FC5 /* Pods_tindew_swipe.framework */,
+				BBD8E406B323925B0216AC45 /* Pods_tindew_swipe_tindew_swipeUITests.framework */,
+				E5333FF0A15CED4B4071C802 /* Pods_tindew_swipeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B169695E2636839B004FFCA2 = {
+			isa = PBXGroup;
+			children = (
+				B16969692636839B004FFCA2 /* tindew-swipe */,
+				B16969802636839C004FFCA2 /* tindew-swipeTests */,
+				B169698B2636839C004FFCA2 /* tindew-swipeUITests */,
+				B16969682636839B004FFCA2 /* Products */,
+				D1320B3E41215A65F90D65E2 /* Pods */,
+				0510FB7D450339EAEA10AFAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B16969682636839B004FFCA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B16969672636839B004FFCA2 /* tindew-swipe.app */,
+				B169697D2636839C004FFCA2 /* tindew-swipeTests.xctest */,
+				B16969882636839C004FFCA2 /* tindew-swipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B16969692636839B004FFCA2 /* tindew-swipe */ = {
+			isa = PBXGroup;
+			children = (
+				B169696A2636839B004FFCA2 /* AppDelegate.swift */,
+				B169696C2636839B004FFCA2 /* SceneDelegate.swift */,
+				B169696E2636839B004FFCA2 /* ViewController.swift */,
+				B16969702636839B004FFCA2 /* Main.storyboard */,
+				B16969732636839C004FFCA2 /* Assets.xcassets */,
+				B16969752636839C004FFCA2 /* LaunchScreen.storyboard */,
+				B16969782636839C004FFCA2 /* Info.plist */,
+			);
+			path = "tindew-swipe";
+			sourceTree = "<group>";
+		};
+		B16969802636839C004FFCA2 /* tindew-swipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B16969812636839C004FFCA2 /* tindew_swipeTests.swift */,
+				B16969832636839C004FFCA2 /* Info.plist */,
+			);
+			path = "tindew-swipeTests";
+			sourceTree = "<group>";
+		};
+		B169698B2636839C004FFCA2 /* tindew-swipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B169698C2636839C004FFCA2 /* tindew_swipeUITests.swift */,
+				B169698E2636839C004FFCA2 /* Info.plist */,
+			);
+			path = "tindew-swipeUITests";
+			sourceTree = "<group>";
+		};
+		D1320B3E41215A65F90D65E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7637BB7E38A0D30B7B5166D /* Pods-tindew-swipe.debug.xcconfig */,
+				D8A6BCA509B07CE1D3B5954C /* Pods-tindew-swipe.release.xcconfig */,
+				1C771C307F1C2958CAB14CCF /* Pods-tindew-swipe-tindew-swipeUITests.debug.xcconfig */,
+				209B9914CA92D3619C9336D0 /* Pods-tindew-swipe-tindew-swipeUITests.release.xcconfig */,
+				10F3514665F49DE1E7FC55E9 /* Pods-tindew-swipeTests.debug.xcconfig */,
+				C50544CEC7455DDD80C80CE3 /* Pods-tindew-swipeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B16969662636839B004FFCA2 /* tindew-swipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16969912636839C004FFCA2 /* Build configuration list for PBXNativeTarget "tindew-swipe" */;
+			buildPhases = (
+				5F6F8A4B1BDD27945246C879 /* [CP] Check Pods Manifest.lock */,
+				B16969632636839B004FFCA2 /* Sources */,
+				B16969642636839B004FFCA2 /* Frameworks */,
+				B16969652636839B004FFCA2 /* Resources */,
+				FC3BE0DC2D776C04F9631879 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tindew-swipe";
+			productName = "tindew-swipe";
+			productReference = B16969672636839B004FFCA2 /* tindew-swipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B169697C2636839C004FFCA2 /* tindew-swipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16969942636839C004FFCA2 /* Build configuration list for PBXNativeTarget "tindew-swipeTests" */;
+			buildPhases = (
+				74908588B2E053FD9EA9E0B5 /* [CP] Check Pods Manifest.lock */,
+				B16969792636839C004FFCA2 /* Sources */,
+				B169697A2636839C004FFCA2 /* Frameworks */,
+				B169697B2636839C004FFCA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B169697F2636839C004FFCA2 /* PBXTargetDependency */,
+			);
+			name = "tindew-swipeTests";
+			productName = "tindew-swipeTests";
+			productReference = B169697D2636839C004FFCA2 /* tindew-swipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B16969872636839C004FFCA2 /* tindew-swipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16969972636839C004FFCA2 /* Build configuration list for PBXNativeTarget "tindew-swipeUITests" */;
+			buildPhases = (
+				B8A28B2806329A8A68F1ED03 /* [CP] Check Pods Manifest.lock */,
+				B16969842636839C004FFCA2 /* Sources */,
+				B16969852636839C004FFCA2 /* Frameworks */,
+				B16969862636839C004FFCA2 /* Resources */,
+				32E064F9F3935B086C5F7148 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B169698A2636839C004FFCA2 /* PBXTargetDependency */,
+			);
+			name = "tindew-swipeUITests";
+			productName = "tindew-swipeUITests";
+			productReference = B16969882636839C004FFCA2 /* tindew-swipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B169695F2636839B004FFCA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B16969662636839B004FFCA2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B169697C2636839C004FFCA2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B16969662636839B004FFCA2;
+					};
+					B16969872636839C004FFCA2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B16969662636839B004FFCA2;
+					};
+				};
+			};
+			buildConfigurationList = B16969622636839B004FFCA2 /* Build configuration list for PBXProject "tindew-swipe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B169695E2636839B004FFCA2;
+			productRefGroup = B16969682636839B004FFCA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B16969662636839B004FFCA2 /* tindew-swipe */,
+				B169697C2636839C004FFCA2 /* tindew-swipeTests */,
+				B16969872636839C004FFCA2 /* tindew-swipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B16969652636839B004FFCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16969772636839C004FFCA2 /* LaunchScreen.storyboard in Resources */,
+				B16969742636839C004FFCA2 /* Assets.xcassets in Resources */,
+				B16969722636839B004FFCA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B169697B2636839C004FFCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16969862636839C004FFCA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32E064F9F3935B086C5F7148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tindew-swipe-tindew-swipeUITests/Pods-tindew-swipe-tindew-swipeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tindew-swipe-tindew-swipeUITests/Pods-tindew-swipe-tindew-swipeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tindew-swipe-tindew-swipeUITests/Pods-tindew-swipe-tindew-swipeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6F8A4B1BDD27945246C879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tindew-swipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74908588B2E053FD9EA9E0B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tindew-swipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A28B2806329A8A68F1ED03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tindew-swipe-tindew-swipeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3BE0DC2D776C04F9631879 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tindew-swipe/Pods-tindew-swipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tindew-swipe/Pods-tindew-swipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tindew-swipe/Pods-tindew-swipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B16969632636839B004FFCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B169696F2636839B004FFCA2 /* ViewController.swift in Sources */,
+				B169696B2636839B004FFCA2 /* AppDelegate.swift in Sources */,
+				B169696D2636839B004FFCA2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16969792636839C004FFCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16969822636839C004FFCA2 /* tindew_swipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16969842636839C004FFCA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B169698D2636839C004FFCA2 /* tindew_swipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B169697F2636839C004FFCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16969662636839B004FFCA2 /* tindew-swipe */;
+			targetProxy = B169697E2636839C004FFCA2 /* PBXContainerItemProxy */;
+		};
+		B169698A2636839C004FFCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16969662636839B004FFCA2 /* tindew-swipe */;
+			targetProxy = B16969892636839C004FFCA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B16969702636839B004FFCA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16969712636839B004FFCA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B16969752636839C004FFCA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16969762636839C004FFCA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B169698F2636839C004FFCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B16969902636839C004FFCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B16969922636839C004FFCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7637BB7E38A0D30B7B5166D /* Pods-tindew-swipe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tindew-swipe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coder.imrajesh.tindew-swipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16969932636839C004FFCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A6BCA509B07CE1D3B5954C /* Pods-tindew-swipe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tindew-swipe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coder.imrajesh.tindew-swipe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B16969952636839C004FFCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F3514665F49DE1E7FC55E9 /* Pods-tindew-swipeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tindew-swipeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coder.imrajesh.tindew-swipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tindew-swipe.app/tindew-swipe";
+			};
+			name = Debug;
+		};
+		B16969962636839C004FFCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50544CEC7455DDD80C80CE3 /* Pods-tindew-swipeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tindew-swipeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coder.imrajesh.tindew-swipeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tindew-swipe.app/tindew-swipe";
+			};
+			name = Release;
+		};
+		B16969982636839C004FFCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C771C307F1C2958CAB14CCF /* Pods-tindew-swipe-tindew-swipeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tindew-swipeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coder.imrajesh.tindew-swipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tindew-swipe";
+			};
+			name = Debug;
+		};
+		B16969992636839C004FFCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209B9914CA92D3619C9336D0 /* Pods-tindew-swipe-tindew-swipeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tindew-swipeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coder.imrajesh.tindew-swipeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tindew-swipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B16969622636839B004FFCA2 /* Build configuration list for PBXProject "tindew-swipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B169698F2636839C004FFCA2 /* Debug */,
+				B16969902636839C004FFCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16969912636839C004FFCA2 /* Build configuration list for PBXNativeTarget "tindew-swipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16969922636839C004FFCA2 /* Debug */,
+				B16969932636839C004FFCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16969942636839C004FFCA2 /* Build configuration list for PBXNativeTarget "tindew-swipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16969952636839C004FFCA2 /* Debug */,
+				B16969962636839C004FFCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16969972636839C004FFCA2 /* Build configuration list for PBXNativeTarget "tindew-swipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16969982636839C004FFCA2 /* Debug */,
+				B16969992636839C004FFCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B169695F2636839B004FFCA2 /* Project object */;
+}
