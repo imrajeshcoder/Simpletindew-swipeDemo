@@ -10,13 +10,12 @@ import Shuffle_iOS
 
 class ViewController: UIViewController , SwipeCardStackDataSource , SwipeCardStackDelegate {
    
-    
   let cardStack = SwipeCardStack()
   
   let cardImages = [
-      UIImage(named: "ic_cardImage1"),
-      UIImage(named: "ic_cardImage2"),
-      UIImage(named: "ic_cardImage3"),
+    UIImage(named: "ic_cardImage1"),
+    UIImage(named: "ic_cardImage2"),
+    UIImage(named: "ic_cardImage3"),
     UIImage(named: "ic_cardImage4"),
     UIImage(named: "ic_cardImage5"),
     UIImage(named: "ic_cardImage6")
